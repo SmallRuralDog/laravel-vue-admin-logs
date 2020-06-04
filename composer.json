@@ -1,0 +1,31 @@
+{
+    "name": "smallruraldog/laravel-vue-admin-logs",
+    "description": "A Laravel Vue Admin Extend",
+    "keywords": [
+        "laravel",
+        "vue",
+        "admin"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "arcanedev/log-viewer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmallRuralDog\\LaravelVueAdminLogs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SmallRuralDog\\LaravelVueAdminLogs\\ExtendServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
