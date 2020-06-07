@@ -18,7 +18,7 @@ class ExtendServiceProvider extends ServiceProvider
         Admin::script('SmallRuralDog-laravel-vue-admin-logs', __DIR__.'/../dist/js/extend.js');
         Admin::style('SmallRuralDog-laravel-vue-admin-logs', __DIR__.'/../dist/css/extend.css');
 
-        Admin::css("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+        Admin::css("https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css");
 
     }
 
